@@ -4,7 +4,7 @@ function Banner() {
 // JSX
     return (
         <header className="banner">
-            <img src="/imagens/bannerifsp.png" alt="marca aerea" />
+            <img src="/imagens/banner.png" alt="marca aerea" />
         </header>
     );
 }

@@ -44,7 +44,7 @@ function App() {
     {
     nome : 'Gadgets',
     corPrimaria : '#6f69e0',
-    corSecundaria : '#8b73e9'
+    corSecundaria : '#8b73e9ae'
     }
     ];
 
