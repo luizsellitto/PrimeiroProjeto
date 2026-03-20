@@ -1,0 +1,39 @@
+.radio-container {
+  margin: 20px 0;
+}
+
+.radio-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.radio-opcoes {
+  display: flex;
+  gap: 10px;
+}
+
+.radio-opcao {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 14px;
+  user-select: none;
+}
+
+.radio-opcao input {
+  display: none;
+}
+
+.radio-opcao:hover {
+  border-color: #57c278;
+}
+
+.radio-opcao.selecionado {
+  background-color: #57c278;
+  color: white;
+  border-color: #57c278;
+  font-weight: bold;
+}
