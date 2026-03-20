@@ -14,11 +14,11 @@ function App() {
     setItens( listaNova )
   }
   const marcas = [
-    { nome: 'HP', imagem: 'public/imagens/hp.png' },
-    { nome: 'Dell', imagem: 'public/imagens/dell.png' },
-    { nome: 'Positivo', imagem: 'public/imagens/positivo.png' },
-    { nome: 'Asus', imagem: 'public/imagens/asus.png' },
-    { nome: 'Xing Ling genérico', imagem: 'public/imagens/xinglinggenerico.png' }
+    { nome: 'HP', imagem: '/imagens/hp.png' },
+    { nome: 'Dell', imagem: '/imagens/dell.png' },
+    { nome: 'Positivo', imagem: '/imagens/positivo.png' },
+    { nome: 'Asus', imagem: '/imagens/asus.png' },
+    { nome: 'Xing Ling genérico', imagem: '/imagens/xinglinggenerico.png' }
   ]
   const sessoes = [
     {
